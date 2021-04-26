@@ -6,9 +6,9 @@ module.exports = (app) => {
   app.route('/url')
     .get(controller.names)
 
-  app.route('/plans')
-    .get(controller.getAllPlans);
+  // app.route('/plans')
+  //   .get(controller.getAllPlans);
 
-  app.route('/plan')
-  .get(controller.addPlan);
+  // app.route('/plan')
+  // .post(controller.addPlan);
 };
